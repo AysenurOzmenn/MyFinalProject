@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Core.Extensions
 {
+    //extensions yazabilmek için sınıfın statik olması gerekiyor.
     public static class ServiceCollectionExtensions
     {
         public static IServiceCollection AddDependencyResolvers
